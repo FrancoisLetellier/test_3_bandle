@@ -1,0 +1,15 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+    prefix:   /
+
+oc_platform:
+    resource: "@OCPlatformBundle/Controller/"
+    type:     annotation
+
+
+company_blog:
+    resource: "@CompanyBlogBundle/Controller"
+    type:     annotation
+
+
